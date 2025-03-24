@@ -88,10 +88,10 @@
         layer_3 {
             display-name = "VI";
             bindings = <
-&studio_unlock  &trans      &trans  &trans       &trans            &trans                            &mmv MOVE_UP                     &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP  &kp END     &trans  &trans
-&trans          &trans      &trans  &trans       &trans            &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN        &kp UP       &kp RIGHT   &trans  &trans
-&trans          &sys_reset  &trans  &bootloader  &kp INT_MUHENKAN  &trans  &trans                    &mmv MOVE_DOWN                   &trans    &kp INT_HENKAN  &bootloader  &sys_reset  &trans  &trans
-                                    &trans       &trans            &trans                                                             &trans    &trans          &trans
+&studio_unlock  &trans      &trans         &trans       &trans            &trans                            &mmv MOVE_UP                     &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP  &kp END     &trans  &trans
+&trans          &trans      &trans         &trans       &trans            &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN        &kp UP       &kp RIGHT   &trans  &trans
+&trans          &sys_reset  &kp BACKSPACE  &bootloader  &kp INT_MUHENKAN  &trans  &trans                    &mmv MOVE_DOWN                   &trans    &kp INT_HENKAN  &bootloader  &sys_reset  &trans  &trans
+                                           &trans       &trans            &trans                                                             &trans    &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;

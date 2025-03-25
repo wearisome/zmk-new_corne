@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, h: VI, s: ':'}
-  - ':'
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -111,7 +111,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '=', s: +}
+  - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - $$mdi:mouse-left-click-outline$$

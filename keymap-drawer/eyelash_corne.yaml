@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - INT1
   - {t: '$$mdi:apple-keyboard-command$$', h: LGUI}
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -126,7 +126,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - {t: \, s: '|'}
+  - INT YEN
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
@@ -140,7 +140,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - {t: Sft+\, s: Sft+|}
+  - Sft+INT YEN
   - {t: '$$mdi:transfer$$', type: trans}
   - '4'
   - {t: '$$mdi:transfer$$', type: trans}

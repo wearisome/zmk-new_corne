@@ -86,7 +86,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
+        vi_layer {
             display-name = "VI";
             bindings = <
 &studio_unlock  &trans      &trans         &trans       &trans  &trans                            &mmv MOVE_UP                     &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END     &trans  &trans
@@ -98,7 +98,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        both_layer {
             bindings = <
 &kp LC(LA(DELETE))  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3      &bt BT_SEL 4                         &trans          &bl BL_TOG  &trans          &trans  &trans  &trans  &trans
 &trans              &bt BT_DISC 0    &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3     &bt BT_DISC 4                &trans  &trans  &trans  &trans      &trans          &trans  &trans  &trans  &trans
@@ -107,6 +107,7 @@
             >;
 
             sensor-bindings = <&rgb_encoder>;
+            label = "Both";
         };
     };
 };

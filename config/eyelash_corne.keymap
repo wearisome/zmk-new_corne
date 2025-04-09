@@ -68,7 +68,7 @@
 &trans  &kp N1   &kp N2   &kp N3  &kp N4  &kp N5                    &trans             &kp N6  &kp N7  &kp N8  &kp N9  &kp N0   &kp MINUS
 &trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5            &trans  &mkp RCLK  &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
 &trans  &kp F11  &kp F12  &trans  &trans  &trans  &trans            &trans             &trans  &trans  &trans  &trans  &trans   &trans
-                          &trans  &trans  &trans                                       &trans  &mo 4   &trans
+                          &trans  &trans  &trans                                       &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -80,7 +80,7 @@
 &trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp LS(MINUS)
 &trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp INT_YEN
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp LS(INT_YEN)
-                                    &trans     &mo 4      &trans                                                                &trans     &trans     &trans
+                                    &trans     &trans     &trans                                                                &trans     &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;

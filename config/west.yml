@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/wearisome
+      url-base: https://github.com/zmkfirmware
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
@@ -12,7 +12,10 @@ manifest:
       revision: main
     - name: zmk
       remote: zmkfirmware
-      revision: wearisome
+      # Pinned to v0.3.0 (Aug 2025). ZMK main moved to Zephyr 4.1 in Dec 2025
+      # which requires a new board format; the eyelash_corne upstream board
+      # has not been migrated. Repin to main once a4174... ports the board.
+      revision: v0.3.0
       import: app/west.yml
   self:
     path: config

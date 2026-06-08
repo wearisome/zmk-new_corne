@@ -112,10 +112,10 @@
 
         astarte_layer {
             bindings = <
-&trans  &kp Q  &kp P  &kp U     &kp Y   &kp COMMA                    &trans          &kp J   &kp D   &kp H   &kp G  &kp W  &trans
-&trans  &kp I  &kp O  &kp E     &kp A   &kp DOT              &trans  &trans  &trans  &kp K   &kp T   &kp N   &kp S  &kp R  &trans
-&trans  &kp Z  &kp X  &kp FSLH  &kp C   &kp SEMI   &trans            &trans          &kp M   &kp L   &kp F   &kp B  &kp V  &trans
-                      &trans    &trans  &trans                                       &trans  &trans  &trans
+&trans  &kp Q  &kp P  &kp U     &kp Y  &kp COMMA                    &trans          &kp J   &kp D  &kp H   &kp G  &kp W  &trans
+&trans  &kp I  &kp O  &kp E     &kp A  &kp DOT              &trans  &trans  &trans  &kp K   &kp T  &kp N   &kp S  &kp R  &trans
+&trans  &kp Z  &kp X  &kp FSLH  &kp C  &kp SEMI   &trans            &trans          &kp M   &kp L  &kp F   &kp B  &kp V  &trans
+                      &trans    &mo 1  &trans                                       &trans  &mo 2  &trans
             >;
         };
 
